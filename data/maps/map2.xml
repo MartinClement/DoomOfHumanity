@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+
+<root>
+	<!-- src : chemin vers le sprite , position : ordre de blit (0 : premier plan)-->
+	<sprites>		
+ 		<sprite src="images/Scrolling1.png" positionX="10" positionY="10" type="2"/>
+	</sprites>
+	
+	<sounds>
+		<sound src="sons/musiqueJeu2.wav"/>
+	</sounds>
+	
+	<!-- unit = type,spawnX,spawnY,declenchement=0,sens=0,timer=0 -->
+	<waves>
+		<wave>
+			<unit type="5" spawnX="300" spawnY="0" declenchement="30" sens="0" timer="0"/>
+			<unit type="3" spawnX="300" spawnY="0" declenchement="60" sens="0" timer="0"/>
+			<unit type="3" spawnX="120" spawnY="0" declenchement="120" sens="1" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="90" sens="1" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="150" sens="1" timer="0"/>
+			<unit type="3" spawnX="120" spawnY="0" declenchement="350" sens="1" timer="0"/>
+			<unit type="3" spawnX="300" spawnY="0" declenchement="500" sens="0" timer="0"/>
+			<unit type="3" spawnX="250" spawnY="0" declenchement="450" sens="1" timer="0"/>
+			<unit type="3" spawnX="85" spawnY="0" declenchement="600" sens="0" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="650" sens="1" timer="0"/>
+		</wave>
+	</waves>
+
+</root>

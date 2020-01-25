@@ -1,0 +1,140 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+
+<root>
+
+	<gameName name='titreFenetre' value="Doom of Humanity: Last Hope"/>
+
+
+
+	<screen>
+
+		<tailles>
+			<taille name="longueurScreen" value="801"/>
+			<taille name="largeurScreen" value="911"/>
+			<taille name="longueurGameScreen" value="781"/>
+			<taille name="largeurGameScreen" value="611"/>
+			<taille name="tailleMenu" value="5"/>
+			<taille name="tailleMenuVaisseau" value="4"/>
+		</tailles>
+
+		<optionsMenuPrincipal>
+			<option name="campagneOrd" n="0"/>
+			<option name="survivalOrd" n="1"/>
+			<option name="chargerOrd" n="2"/>
+			<option name="quitterOrd" n="4"/>
+		</optionsMenuPrincipal>
+
+		<optionsMenuVaisseau>
+			<option name="vaisseau1Ord" n="0"/>
+			<option name="vaisseau2Ord" n="1"/>
+			<option name="vaisseau3Ord" n="2"/>
+			<option name="retourOrd" n="3"/>
+		</optionsMenuVaisseau>
+
+		<optionsChoixJoueurs>
+			<option name="nbJoueur1" n="0"/>
+			<option name="nbJoueur2" n="1"/>
+		</optionsChoixJoueurs>
+
+		<ath>
+			<position name="positionVie" posi="772,632"/>
+			<position name="positionScore" posi="700,175"/>
+		</ath>
+
+	</screen>
+
+
+
+	<sprites>
+
+		<general>
+			<sprite name="spriteAth" src="images/ATH.png"/>
+			<sprite name="spriteFondJeu" src="images/FondJeu1.png"/>
+			<sprite name="spriteVie0" src="images/vie0.png"/>
+			<sprite name="spriteVie1" src="images/vie1.png"/>
+		</general>
+
+		<joueurs>
+			<sprite name="spriteFiery1" src="images/FieryPheonix1.png"/>
+			<sprite name="spriteFiery2" src="images/FieryPheonix2.png"/>
+			<sprite name="spriteFiery3" src="images/FieryPheonix3.png"/>
+			<sprite name="spriteFiery1Invul" src="images/FieryPheonix1Invul.png"/>
+			<sprite name="spriteFiery2Invul" src="images/FieryPheonix2Invul.png"/>
+			<sprite name="spriteFiery3Invul" src="images/FieryPheonix3Invul.png"/>
+			<sprite name="spriteFatalShock1" src="images/FatalShock1.png"/>
+			<sprite name="spriteFatalShock2" src="images/FatalShock2.png"/>
+			<sprite name="spriteFatalShock3" src="images/FatalShock3.png"/>
+			<sprite name="spriteFatalShock1Invul" src="images/FatalShock1Invul.png"/>
+			<sprite name="spriteFatalShock2Invul" src="images/FatalShock2Invul.png"/>
+			<sprite name="spriteFatalShock3Invul" src="images/FatalShock3Invul.png"/>
+			<sprite name="spriteTsunami1" src="images/Tsunami1.png"/>
+			<sprite name="spriteTsunami2" src="images/Tsunami2.png"/>
+			<sprite name="spriteTsunami3" src="images/Tsunami3.png"/>
+			<sprite name="spriteTsunami1Invul" src="images/Tsunami1Invul.png"/>
+			<sprite name="spriteTsunami2Invul" src="images/Tsunami2Invul.png"/>
+			<sprite name="spriteTsunami3Invul" src="images/Tsunami3Invul.png"/>
+		</joueurs>
+
+		<menu>
+			<sprite name="spriteCampagne" src="images/MenuPrincipaleCampagne.png"/>
+			<sprite name="spriteCharger" src="images/MenuPrincipaleCharger.png"/>
+			<sprite name="spriteOptions" src="images/MenuPrincipaleOptions.png"/>
+			<sprite name="spritePassword" src="images/MenuPrincipalePassword.png"/>
+			<sprite name="spriteQuitter" src="images/MenuPrincipaleQuitter.png"/>
+			<sprite name="spriteVaisseauSelect1" src="images/MenuVaisseauxSelect1.png"/>
+			<sprite name="spriteVaisseauSelect2" src="images/MenuVaisseauxSelect2.png"/>
+			<sprite name="spriteVaisseauSelect3" src="images/MenuVaisseauxSelect3.png"/>
+			<sprite name="spriteVaisseauRetour" src="images/MenuVaisseauxRetour.png"/>
+		</menu>
+
+	</sprites>
+
+
+
+	<commandes>
+		<commande id="J1gauche" value="int(K_a)"/>
+		<commande id="J1droite" value="int(K_d)"/>
+		<commande id="J1haut" value="int(K_w)"/>
+		<commande id="J1bas" value="int(K_s)"/>
+		<commande id="J1speed" value="int(K_j)"/>
+		<commande id="J1tir" value="int(K_k)"/>
+		<commande id="J1pause" value="int(K_p)"/>
+		<commande id="J1valider" value="int(K_RETURN)"/>
+		<commande id="J2gauche" value="int(K_LEFT)"/>
+		<commande id="J2droite" value="int(K_RIGHT)"/>
+		<commande id="J2haut" value="int(K_UP)"/>
+		<commande id="J2bas" value="int(K_DOWN)"/>
+		<commande id="J2speed" value="int(K_KP1)"/>
+		<commande id="J2tir" value="int(K_KP2)"/>
+		<commande id="J2pause" value="int(K_KP_ENTER)"/>
+		<commande id="J2valider" value="int(K_KP_ENTER)"/>
+	</commandes>
+
+
+
+	<sons>
+		<son name="sonMoveMenu" src="sons/moveMenu.wav"/>
+		<son name="sonRetourMenu" src="sons/retourMenu.wav"/>
+		<son name="sonValideMenu" src="sons/valideMenu.wav"/>
+		<son name="musiMenu" src="sons/musiqueMenu.wav"/>
+		<son name="sonTir1" src="sons/Tir1.wav"/>
+		<son name="sonTir2" src="sons/Tir2.wav"/>
+		<son name="sonTir3" src="sons/Tir3.wav"/>
+		<son name="sonTir4" src="sons/Tir4.wav"/>
+		<son name="sonTir5" src="sons/Tir5.wav"/>
+		<son name="sonExplosion" src="sons/explosion1.wav"/>
+	</sons>
+
+
+
+	<divers>
+		<etc name="speedVaisseau" value="7"/>
+		<etc name="speedVaisseauEnnemis" value="5"/>
+		<etc name="nombreDeVies" value="3"/>
+		<etc name="nbAnimEnnemi1" value="3"/>
+		<etc name="hardmode" value="0"/>
+		<etc name="zoneJeuX" value="10"/>
+		<etc name="zoneJeuY" value="10"/>
+	</divers>
+
+</root>

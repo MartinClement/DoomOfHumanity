@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<root>
+	<save>
+		<data name="nbLvl" value="2"/>
+		<data name="arme" value="1"/>
+		<data name="lvlArme" value="1"/>
+		<choix name="choix" value="['images/FieryPheonix1.png', 'images/FieryPheonix2.png', 'images/FieryPheonix3.png', 'images/FieryPheonix1Invul.png', 'images/FieryPheonix2Invul.png', 'images/FieryPheonix3Invul.png']"/>
+		<data name="score" value="4000"/>
+		<data name="nbVie" value="1"/>
+	</save>
+</root>

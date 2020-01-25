@@ -1,0 +1,62 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+
+<root>
+	<!-- src : chemin vers le sprite , position : ordre de blit (0 : premier plan)-->
+	<sprites>		
+ 		<sprite src="images/Scrolling3.png" positionX="10" positionY="10"/>
+	</sprites>
+	
+	<sounds>
+		<sound src="sons/musiqueJeu.wav"/>
+	</sounds>
+	
+	<!-- unit = type,spawnX,spawnY,declenchement=0,sens=0,timer=0 -->
+	<waves>
+		<wave>
+			<unit type="1" spawnX="50" spawnY="0" declenchement="80" sens="1" timer="0"/>
+			<unit type="1" spawnX="175" spawnY="0" declenchement="70" sens="0" timer="0"/>
+			<unit type="1" spawnX="580" spawnY="0" declenchement="70" sens="0" timer="0"/>
+			<unit type="1" spawnX="randint(0,600)" spawnY="0" declenchement="150" sens="1" timer="0"/>
+			<unit type="1" spawnX="randint(0,600)" spawnY="0" declenchement="130" sens="1" timer="0"/>
+			<unit type="1" spawnX="randint(0,600)" spawnY="0" declenchement="140" sens="1" timer="0"/>
+		</wave>
+		<wave>
+			<unit type="1" spawnX="300" spawnY="0" declenchement="0" sens="1" timer="0"/>
+			<unit type="1" spawnX="130" spawnY="0" declenchement="0" sens="0" timer="0"/>
+			<unit type="1" spawnX="580" spawnY="0" declenchement="40" sens="0" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="0" sens="1" timer="0"/>
+			<unit type="1" spawnX="randint(0,600)" spawnY="0" declenchement="80" sens="1" timer="0"/>
+			<unit type="1" spawnX="randint(0,600)" spawnY="0" declenchement="70" sens="1" timer="0"/>
+			<unit type="1" spawnX="randint(0,600)" spawnY="0" declenchement="30" sens="1" timer="0"/>
+			<unit type="1" spawnX="randint(0,600)" spawnY="0" declenchement="40" sens="1" timer="0"/>
+		</wave>
+		<wave>
+			<unit type="1" spawnX="50" spawnY="0" declenchement="10" sens="1" timer="0"/>
+			<unit type="1" spawnX="175" spawnY="0" declenchement="20" sens="0" timer="0"/>
+			<unit type="1" spawnX="580" spawnY="0" declenchement="10" sens="0" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="30" sens="1" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="20" sens="1" timer="0"/>
+			<unit type="1" spawnX="randint(0,600)" spawnY="0" declenchement="60" sens="1" timer="0"/>
+		</wave>
+		<wave>
+			<unit type="3" spawnX="300" spawnY="0" declenchement="70" sens="0" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="10" sens="1" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="20" sens="1" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="10" sens="1" timer="0"/>
+		</wave>
+		<wave>
+			<unit type="1" spawnX="300" spawnY="0" declenchement="10" sens="1" timer="0"/>
+			<unit type="1" spawnX="130" spawnY="0" declenchement="10" sens="0" timer="0"/>
+			<unit type="1" spawnX="580" spawnY="0" declenchement="30" sens="0" timer="0"/>
+			<unit type="3" spawnX="300" spawnY="0" declenchement="20" sens="0" timer="0"/>
+			<unit type="3" spawnX="120" spawnY="0" declenchement="10" sens="1" timer="0"/>
+			<unit type="3" spawnX="430" spawnY="0" declenchement="15" sens="0" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="50" sens="1" timer="0"/>
+			<unit type="2" spawnX="randint(150,400)" spawnY="0" declenchement="60" sens="1" timer="0"/>
+		</wave>
+		<wave>
+			<unit type="5" spawnX="300" spawnY="0" declenchement="10" sens="0" timer="0"/>
+		</wave>
+	</waves>
+
+</root>
