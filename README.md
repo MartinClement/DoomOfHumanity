@@ -18,7 +18,7 @@ This game has been developed as a faculty project. This is not the final version
  
  ```
   // run the game 
-  > python3 Main.js
+  > python3 Main.py
  ```
  
 ## Improvements
